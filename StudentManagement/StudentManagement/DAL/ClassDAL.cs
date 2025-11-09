@@ -19,7 +19,7 @@ namespace StudentManagement.DAL
 
         public List<Class> GetAllClasses()
         {
-            return _context.Classes.ToList();
+            return _context.Classes.Include(c => c.Students).ToList();
         }
 
         public void AddClass(Class newClass)

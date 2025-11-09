@@ -19,6 +19,9 @@
     <Compile Update="UI\UserControls\ucClasses.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI\UserControls\ucDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI\UserControls\ucHome.cs">
       <SubType>UserControl</SubType>
     </Compile>

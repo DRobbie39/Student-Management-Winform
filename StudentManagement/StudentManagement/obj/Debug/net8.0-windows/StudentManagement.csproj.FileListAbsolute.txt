@@ -150,3 +150,6 @@ D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.UserControls.ucHome.resources
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.UserControls.ucStudents.resources
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.Admin.StudentForm.frmStudentDetailForm.resources
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.UserControls.ucDashboard.resources
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
