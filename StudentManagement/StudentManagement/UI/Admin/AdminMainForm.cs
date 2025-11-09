@@ -54,5 +54,10 @@ namespace StudentManagement.UI.Admin
         {
             ShowUserControl(new ucClasses());
         }
+
+        private void tsbHome_Click(object sender, EventArgs e)
+        {
+            ShowUserControl(new ucHome());
+        }
     }
 }

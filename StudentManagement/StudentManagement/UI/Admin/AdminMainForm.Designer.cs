@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAdminMainForm));
             btnLogout = new Button();
             pnlContent = new Panel();
             pbMainForm = new PictureBox();
@@ -37,8 +36,6 @@
             tsbHome = new ToolStripButton();
             tsbStudent = new ToolStripButton();
             tsbClasses = new ToolStripButton();
-            tsbSubjects = new ToolStripButton();
-            tsbScores = new ToolStripButton();
             tslWelcome = new ToolStripLabel();
             tsbDashboard = new ToolStripButton();
             pnlContent.SuspendLayout();
@@ -52,7 +49,8 @@
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(177, 63);
             btnLogout.TabIndex = 1;
-            btnLogout.Text = "Logout";
+            btnLogout.Text = "😉 Logout";
+            btnLogout.TextImageRelation = TextImageRelation.ImageAboveText;
             btnLogout.UseVisualStyleBackColor = true;
             btnLogout.Click += btnLogout_Click;
             // 
@@ -79,81 +77,69 @@
             // 
             tsAdminMainForm.BackColor = SystemColors.ScrollBar;
             tsAdminMainForm.ImageScalingSize = new Size(20, 20);
-            tsAdminMainForm.Items.AddRange(new ToolStripItem[] { tsLogo, tsbHome, tsbStudent, tsbClasses, tsbSubjects, tsbScores, tslWelcome, tsbDashboard });
+            tsAdminMainForm.Items.AddRange(new ToolStripItem[] { tsLogo, tsbHome, tsbStudent, tsbClasses, tslWelcome, tsbDashboard });
             tsAdminMainForm.Location = new Point(0, 0);
             tsAdminMainForm.Name = "tsAdminMainForm";
             tsAdminMainForm.Padding = new Padding(10);
-            tsAdminMainForm.Size = new Size(1182, 51);
+            tsAdminMainForm.Size = new Size(1182, 55);
             tsAdminMainForm.TabIndex = 0;
             tsAdminMainForm.Text = "toolStrip1";
             // 
             // tsLogo
             // 
-            tsLogo.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            tsLogo.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             tsLogo.Name = "tsLogo";
-            tsLogo.Size = new Size(119, 28);
+            tsLogo.Size = new Size(135, 32);
             tsLogo.Text = "Student CO";
             // 
             // tsbHome
             // 
-            tsbHome.Image = (Image)resources.GetObject("tsbHome.Image");
+            tsbHome.Font = new Font("Segoe UI", 12F);
+            tsbHome.Image = Properties.Resources.home_icon;
             tsbHome.ImageTransparentColor = Color.Magenta;
             tsbHome.Margin = new Padding(10, 1, 0, 2);
             tsbHome.Name = "tsbHome";
-            tsbHome.Size = new Size(74, 28);
+            tsbHome.Size = new Size(89, 32);
             tsbHome.Text = "Home";
+            tsbHome.Click += tsbHome_Click;
             // 
             // tsbStudent
             // 
-            tsbStudent.Image = (Image)resources.GetObject("tsbStudent.Image");
+            tsbStudent.Font = new Font("Segoe UI", 12F);
+            tsbStudent.Image = Properties.Resources.student_icon;
             tsbStudent.ImageTransparentColor = Color.Magenta;
             tsbStudent.Margin = new Padding(10, 1, 0, 2);
             tsbStudent.Name = "tsbStudent";
-            tsbStudent.Size = new Size(90, 28);
+            tsbStudent.Size = new Size(112, 32);
             tsbStudent.Text = "Students";
             // 
             // tsbClasses
             // 
-            tsbClasses.Image = (Image)resources.GetObject("tsbClasses.Image");
+            tsbClasses.Font = new Font("Segoe UI", 12F);
+            tsbClasses.Image = Properties.Resources.class_icon;
             tsbClasses.ImageTransparentColor = Color.Magenta;
             tsbClasses.Margin = new Padding(10, 1, 0, 2);
             tsbClasses.Name = "tsbClasses";
-            tsbClasses.Size = new Size(80, 28);
+            tsbClasses.Size = new Size(97, 32);
             tsbClasses.Text = "Classes";
             tsbClasses.Click += tsbClasses_Click;
-            // 
-            // tsbSubjects
-            // 
-            tsbSubjects.Image = (Image)resources.GetObject("tsbSubjects.Image");
-            tsbSubjects.ImageTransparentColor = Color.Magenta;
-            tsbSubjects.Margin = new Padding(10, 1, 0, 2);
-            tsbSubjects.Name = "tsbSubjects";
-            tsbSubjects.Size = new Size(88, 28);
-            tsbSubjects.Text = "Subjects";
-            // 
-            // tsbScores
-            // 
-            tsbScores.Image = (Image)resources.GetObject("tsbScores.Image");
-            tsbScores.ImageTransparentColor = Color.Magenta;
-            tsbScores.Margin = new Padding(10, 1, 0, 2);
-            tsbScores.Name = "tsbScores";
-            tsbScores.Size = new Size(76, 28);
-            tsbScores.Text = "Scores";
             // 
             // tslWelcome
             // 
             tslWelcome.Alignment = ToolStripItemAlignment.Right;
+            tslWelcome.Font = new Font("Segoe UI", 12F);
             tslWelcome.Name = "tslWelcome";
-            tslWelcome.Size = new Size(74, 28);
+            tslWelcome.Size = new Size(97, 32);
             tslWelcome.Text = "Welcome,";
             // 
             // tsbDashboard
             // 
-            tsbDashboard.Image = (Image)resources.GetObject("tsbDashboard.Image");
+            tsbDashboard.Font = new Font("Segoe UI", 12F);
+            tsbDashboard.Image = Properties.Resources.dashboard_icon;
             tsbDashboard.ImageTransparentColor = Color.Magenta;
             tsbDashboard.Margin = new Padding(10, 1, 0, 2);
             tsbDashboard.Name = "tsbDashboard";
-            tsbDashboard.Size = new Size(106, 28);
+            tsbDashboard.Size = new Size(132, 32);
             tsbDashboard.Text = "Dashboard";
             // 
             // frmAdminMainForm
@@ -188,8 +174,6 @@
         private ToolStripButton tsbHome;
         private ToolStripButton tsbStudent;
         private ToolStripButton tsbClasses;
-        private ToolStripButton tsbSubjects;
-        private ToolStripButton tsbScores;
         private ToolStripLabel tslWelcome;
         private ToolStripButton tsbDashboard;
     }

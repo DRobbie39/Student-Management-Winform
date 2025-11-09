@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\admin\\classform\\formclassdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\admin\\classform\\formclassdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\dal\\classdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\dal\\classdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\dal\\models\\studentmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\dal\\models\\studentmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\bll\\classbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\bll\\classbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\admin\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\admin\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,54 +63,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormClassDetail.cs",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\ClassForm\\FormClassDetail.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\UI\\Admin\\ClassForm\\FormClassDetail.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\ClassForm\\FormClassDetail.cs",
-              "RelativeToolTip": "StudentManagement\\UI\\Admin\\ClassForm\\FormClassDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Title": "AdminMainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\AdminMainForm.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\UI\\Admin\\AdminMainForm.cs",
+              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\AdminMainForm.cs [Design]",
+              "RelativeToolTip": "StudentManagement\\UI\\Admin\\AdminMainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:38:29.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentManagementContext.cs",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\DAL\\Models\\StudentManagementContext.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\DAL\\Models\\StudentManagementContext.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\DAL\\Models\\StudentManagementContext.cs",
-              "RelativeToolTip": "StudentManagement\\DAL\\Models\\StudentManagementContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAjwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:38:24.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClassDAL.cs",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\DAL\\ClassDAL.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\DAL\\ClassDAL.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\DAL\\ClassDAL.cs",
-              "RelativeToolTip": "StudentManagement\\DAL\\ClassDAL.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAIA2wDgAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:24:43.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClassBLL.cs",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\BLL\\ClassBLL.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\BLL\\ClassBLL.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\BLL\\ClassBLL.cs",
-              "RelativeToolTip": "StudentManagement\\BLL\\ClassBLL.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:23:58.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T15:44:23.418Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

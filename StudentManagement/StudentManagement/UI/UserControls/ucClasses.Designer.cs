@@ -28,38 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
             dgvClasses = new DataGridView();
+            colClassID = new DataGridViewTextBoxColumn();
+            colClassName = new DataGridViewTextBoxColumn();
+            colDepartment = new DataGridViewTextBoxColumn();
             flpButton = new FlowLayoutPanel();
             btnAdd = new Button();
             btnEdit = new Button();
             btnDelete = new Button();
             txtSearchClasses = new TextBox();
             btnSearchClasses = new Button();
-            colClassID = new DataGridViewTextBoxColumn();
-            colClassName = new DataGridViewTextBoxColumn();
-            colDepartment = new DataGridViewTextBoxColumn();
+            lblClasses = new Label();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dgvClasses).BeginInit();
             flpButton.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // dgvClasses
             // 
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = SystemColors.Control;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dgvClasses.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle11.BackColor = Color.FromArgb(238, 239, 249);
+            dgvClasses.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
+            dgvClasses.BackgroundColor = Color.White;
+            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle12.BackColor = SystemColors.Control;
+            dataGridViewCellStyle12.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle12.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.True;
+            dgvClasses.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
             dgvClasses.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvClasses.Columns.AddRange(new DataGridViewColumn[] { colClassID, colClassName, colDepartment });
+            dgvClasses.EnableHeadersVisualStyles = false;
             dgvClasses.Location = new Point(3, 122);
             dgvClasses.Name = "dgvClasses";
             dgvClasses.RowHeadersWidth = 51;
             dgvClasses.Size = new Size(1176, 577);
             dgvClasses.TabIndex = 0;
+            // 
+            // colClassID
+            // 
+            colClassID.DataPropertyName = "ClassId";
+            colClassID.HeaderText = "Class ID";
+            colClassID.MinimumWidth = 6;
+            colClassID.Name = "colClassID";
+            colClassID.Width = 200;
+            // 
+            // colClassName
+            // 
+            colClassName.DataPropertyName = "ClassName";
+            colClassName.HeaderText = "Class Name";
+            colClassName.MinimumWidth = 6;
+            colClassName.Name = "colClassName";
+            colClassName.Width = 500;
+            // 
+            // colDepartment
+            // 
+            colDepartment.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            colDepartment.DataPropertyName = "Department";
+            colDepartment.HeaderText = "Department";
+            colDepartment.MinimumWidth = 6;
+            colDepartment.Name = "colDepartment";
             // 
             // flpButton
             // 
@@ -122,34 +154,32 @@
             btnSearchClasses.UseVisualStyleBackColor = true;
             btnSearchClasses.Click += btnSearchClasses_Click;
             // 
-            // colClassID
+            // lblClasses
             // 
-            colClassID.DataPropertyName = "ClassId";
-            colClassID.HeaderText = "Class ID";
-            colClassID.MinimumWidth = 6;
-            colClassID.Name = "colClassID";
-            colClassID.Width = 200;
+            lblClasses.AutoSize = true;
+            lblClasses.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblClasses.Location = new Point(47, 35);
+            lblClasses.Name = "lblClasses";
+            lblClasses.Size = new Size(210, 28);
+            lblClasses.TabIndex = 4;
+            lblClasses.Text = "Classes Management";
             // 
-            // colClassName
+            // pictureBox1
             // 
-            colClassName.DataPropertyName = "ClassName";
-            colClassName.HeaderText = "Class Name";
-            colClassName.MinimumWidth = 6;
-            colClassName.Name = "colClassName";
-            colClassName.Width = 500;
-            // 
-            // colDepartment
-            // 
-            colDepartment.DataPropertyName = "Department";
-            colDepartment.HeaderText = "Department";
-            colDepartment.MinimumWidth = 6;
-            colDepartment.Name = "colDepartment";
-            colDepartment.Width = 500;
+            pictureBox1.Image = Properties.Resources.class_icon;
+            pictureBox1.Location = new Point(14, 40);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(27, 23);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 5;
+            pictureBox1.TabStop = false;
             // 
             // ucClasses
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(pictureBox1);
+            Controls.Add(lblClasses);
             Controls.Add(btnSearchClasses);
             Controls.Add(txtSearchClasses);
             Controls.Add(flpButton);
@@ -159,6 +189,7 @@
             Load += ucClasses_Load;
             ((System.ComponentModel.ISupportInitialize)dgvClasses).EndInit();
             flpButton.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -172,8 +203,10 @@
         private Button btnDelete;
         private TextBox txtSearchClasses;
         private Button btnSearchClasses;
+        private Label lblClasses;
         private DataGridViewTextBoxColumn colClassID;
         private DataGridViewTextBoxColumn colClassName;
         private DataGridViewTextBoxColumn colDepartment;
+        private PictureBox pictureBox1;
     }
 }

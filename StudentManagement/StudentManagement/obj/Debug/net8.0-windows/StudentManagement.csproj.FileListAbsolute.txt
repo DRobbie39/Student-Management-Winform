@@ -147,3 +147,4 @@ D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.UserControls.ucClasses.resources
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.Admin.ClassForm.frmClassDetailForm.resources
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.UserControls.ucHome.resources

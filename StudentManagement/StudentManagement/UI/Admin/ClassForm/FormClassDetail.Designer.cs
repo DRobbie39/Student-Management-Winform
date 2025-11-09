@@ -34,6 +34,7 @@
             txtDepartment = new TextBox();
             btnCancel = new Button();
             btnSave = new Button();
+            lblClassDetail = new Label();
             SuspendLayout();
             // 
             // lblClassName
@@ -88,11 +89,22 @@
             btnSave.UseVisualStyleBackColor = true;
             btnSave.Click += btnSave_Click;
             // 
+            // lblClassDetail
+            // 
+            lblClassDetail.AutoSize = true;
+            lblClassDetail.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblClassDetail.Location = new Point(371, 83);
+            lblClassDetail.Name = "lblClassDetail";
+            lblClassDetail.Size = new Size(137, 31);
+            lblClassDetail.TabIndex = 17;
+            lblClassDetail.Text = "Class Detail";
+            // 
             // frmClassDetailForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblClassDetail);
             Controls.Add(btnSave);
             Controls.Add(btnCancel);
             Controls.Add(txtDepartment);
@@ -117,5 +129,6 @@
         private TextBox txtDepartment;
         private Button btnCancel;
         private Button btnSave;
+        private Label lblClassDetail;
     }
 }
