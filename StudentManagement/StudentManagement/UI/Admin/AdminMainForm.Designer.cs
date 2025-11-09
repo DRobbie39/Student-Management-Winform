@@ -142,6 +142,7 @@
             tsbDashboard.Name = "tsbDashboard";
             tsbDashboard.Size = new Size(132, 32);
             tsbDashboard.Text = "Dashboard";
+            tsbDashboard.Click += tsbDashboard_Click;
             // 
             // frmAdminMainForm
             // 
