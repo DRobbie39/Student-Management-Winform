@@ -54,6 +54,7 @@
             btnLogout.TabIndex = 1;
             btnLogout.Text = "Logout";
             btnLogout.UseVisualStyleBackColor = true;
+            btnLogout.Click += btnLogout_Click;
             // 
             // pnlContent
             // 
@@ -167,6 +168,7 @@
             Name = "frmAdminMainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Admin Main Form";
+            Load += frmAdminMainForm_Load;
             pnlContent.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pbMainForm).EndInit();
             tsAdminMainForm.ResumeLayout(false);

@@ -84,6 +84,7 @@
             lnkLogin.TabIndex = 34;
             lnkLogin.TabStop = true;
             lnkLogin.Text = "Login";
+            lnkLogin.LinkClicked += lnkLogin_LinkClicked;
             // 
             // pbPassword
             // 
@@ -136,6 +137,7 @@
             btnRegister.TabIndex = 29;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = false;
+            btnRegister.Click += btnRegister_Click;
             // 
             // txtPassword
             // 
