@@ -33,9 +33,9 @@ namespace StudentManagement.UI.Authentication
             {
                 MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                this.Hide();
                 var mainForm = new frmAdminMainForm(username);
                 mainForm.Show();
-                this.Close();
             }
             else
             {
