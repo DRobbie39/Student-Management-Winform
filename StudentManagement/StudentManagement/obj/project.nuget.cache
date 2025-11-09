@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BzzJVKWJ7nU=",
+  "dgSpecHash": "WKZls+jVP/M=",
   "success": true,
-  "projectFilePath": "D:\\Study\\Code_storage\\QLSinhVien_PV\\StudentManagement\\StudentManagement\\StudentManagement.csproj",
+  "projectFilePath": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\StudentManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
