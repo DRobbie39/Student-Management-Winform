@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\usercontrols\\ucdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\usercontrols\\ucdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\usercontrols\\ucstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\usercontrols\\ucstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\usercontrols\\ucdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\usercontrols\\ucdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\usercontrols\\ucstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\usercontrols\\ucstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\bll\\studentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\bll\\studentbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\dal\\models\\studentmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\dal\\models\\studentmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,28 +74,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ucDashboard.cs",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucDashboard.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\UI\\UserControls\\ucDashboard.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucDashboard.cs",
-              "RelativeToolTip": "StudentManagement\\UI\\UserControls\\ucDashboard.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwFQAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ucStudents.cs",
+              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "RelativeToolTip": "StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAjwLQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T18:28:12.434Z",
+              "WhenOpened": "2025-11-09T23:45:41.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ucDashboard.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucDashboard.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\UI\\UserControls\\ucDashboard.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucDashboard.cs [Design]",
-              "RelativeToolTip": "StudentManagement\\UI\\UserControls\\ucDashboard.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "ucStudents.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucStudents.cs [Design]",
+              "RelativeToolTip": "StudentManagement\\UI\\UserControls\\ucStudents.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T18:21:43.18Z",
+              "WhenOpened": "2025-11-09T23:44:21.451Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentBLL.cs",
+              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\BLL\\StudentBLL.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\BLL\\StudentBLL.cs",
+              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\BLL\\StudentBLL.cs",
+              "RelativeToolTip": "StudentManagement\\BLL\\StudentBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T19:57:03.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentManagementContext.cs",
+              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\DAL\\Models\\StudentManagementContext.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\DAL\\Models\\StudentManagementContext.cs",
+              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\DAL\\Models\\StudentManagementContext.cs",
+              "RelativeToolTip": "StudentManagement\\DAL\\Models\\StudentManagementContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAjwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T19:56:55.294Z",
+              "EditorCaption": ""
             }
           ]
         }

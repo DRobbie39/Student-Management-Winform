@@ -153,3 +153,11 @@ D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.UserControls.ucDashboard.resources
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\ClosedXML.dll
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\RBush.dll
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\bin\Debug\net8.0-windows\System.IO.Packaging.dll
