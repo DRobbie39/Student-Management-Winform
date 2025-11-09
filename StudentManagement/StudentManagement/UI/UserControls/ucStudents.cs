@@ -1,4 +1,5 @@
-﻿using StudentManagement.BLL;
+﻿using ClosedXML.Excel;
+using StudentManagement.BLL;
 using StudentManagement.DAL.Models;
 using StudentManagement.UI.Admin.StudentForm;
 using System;
@@ -154,6 +155,66 @@ namespace StudentManagement.UI.UserControls
                 {
                     MessageBox.Show(result, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+            }
+        }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Lấy dữ liệu từ BLL của bạn
+                var studentBLL = new StudentBLL();
+
+                var students = studentBLL.GetAllStudents();
+
+                // Tạo một Workbook (tương đương 1 file Excel)
+                using (var workbook = new XLWorkbook())
+                {
+                    var worksheet = workbook.Worksheets.Add("Danh sách Sinh viên");
+
+                    // Tạo tiêu đề cho các cột
+                    worksheet.Cell("A1").Value = "Student ID";
+                    worksheet.Cell("B1").Value = "Full Name";
+                    worksheet.Cell("C1").Value = "Gender";
+                    worksheet.Cell("D1").Value = "Date of Birth";
+                    worksheet.Cell("E1").Value = "Class Name";
+                    worksheet.Cell("F1").Value = "Department";
+
+                    // Định dạng cho dòng tiêu đề (in đậm, màu nền)
+                    var headerRange = worksheet.Range("A1:F1");
+                    headerRange.Style.Font.Bold = true;
+                    headerRange.Style.Fill.BackgroundColor = XLColor.LightGray;
+
+                    // Đổ dữ liệu vào các dòng
+                    int currentRow = 2;
+                    foreach (var student in students)
+                    {
+                        worksheet.Cell(currentRow, 1).Value = student.StudentId;
+                        worksheet.Cell(currentRow, 2).Value = student.FullName;
+                        worksheet.Cell(currentRow, 3).Value = student.Gender;
+                        worksheet.Cell(currentRow, 4).Value = student.DateOfBirth.Value.ToDateTime(TimeOnly.MinValue);
+                        worksheet.Cell(currentRow, 5).Value = student.Class.ClassName;
+                        worksheet.Cell(currentRow, 6).Value = student.Class.Department;
+                        currentRow++;
+                    }
+
+                    // Tự động điều chỉnh độ rộng cột
+                    worksheet.Columns().AdjustToContents();
+
+                    // Lưu file
+                    SaveFileDialog sfd = new SaveFileDialog();
+                    sfd.Filter = "Excel Files (*.xlsx)|*.xlsx";
+                    sfd.Title = "Save Excel report file";
+                    if (sfd.ShowDialog() == DialogResult.OK)
+                    {
+                        workbook.SaveAs(sfd.FileName);
+                        MessageBox.Show("Export Excel file successfully!", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error when exporting Excel file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

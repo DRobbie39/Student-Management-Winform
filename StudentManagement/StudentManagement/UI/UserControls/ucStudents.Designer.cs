@@ -45,6 +45,7 @@
             lblStudents = new Label();
             btnSearchStudents = new Button();
             txtSearchStudents = new TextBox();
+            btnExcel = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvStudents).BeginInit();
             flpButton.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pbStudents).BeginInit();
@@ -201,10 +202,22 @@
             txtSearchStudents.Size = new Size(254, 27);
             txtSearchStudents.TabIndex = 8;
             // 
+            // btnExcel
+            // 
+            btnExcel.Location = new Point(726, 74);
+            btnExcel.Margin = new Padding(10, 3, 10, 3);
+            btnExcel.Name = "btnExcel";
+            btnExcel.Size = new Size(94, 38);
+            btnExcel.TabIndex = 12;
+            btnExcel.Text = "Excel";
+            btnExcel.UseVisualStyleBackColor = true;
+            btnExcel.Click += btnExcel_Click;
+            // 
             // ucStudents
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnExcel);
             Controls.Add(dgvStudents);
             Controls.Add(flpButton);
             Controls.Add(pbStudents);
@@ -238,5 +251,6 @@
         private DataGridViewTextBoxColumn colDOB;
         private DataGridViewTextBoxColumn colAddress;
         private DataGridViewTextBoxColumn colClassName;
+        private Button btnExcel;
     }
 }
