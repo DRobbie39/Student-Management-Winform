@@ -7,6 +7,9 @@
     <Compile Update="UI\Admin\ClassForm\FormClassDetail.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UI\Admin\StudentForm\StudentDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UI\Authentication\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -17,6 +20,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UI\UserControls\ucHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\UserControls\ucStudents.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
