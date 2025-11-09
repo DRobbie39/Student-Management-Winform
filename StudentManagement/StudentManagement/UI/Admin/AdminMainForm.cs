@@ -1,4 +1,5 @@
 ﻿using StudentManagement.UI.Authentication;
+using StudentManagement.UI.UserControls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -40,6 +41,18 @@ namespace StudentManagement.UI.Admin
                 loginForm.Show();
                 this.Close();
             }
+        }
+
+        private void ShowUserControl(UserControl uc)
+        {
+            pnlContent.Controls.Clear();
+            uc.Dock = DockStyle.Fill;
+            pnlContent.Controls.Add(uc);
+        }
+
+        private void tsbClasses_Click(object sender, EventArgs e)
+        {
+            ShowUserControl(new ucClasses());
         }
     }
 }

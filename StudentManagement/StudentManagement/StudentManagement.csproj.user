@@ -4,11 +4,17 @@
     <Compile Update="UI\Admin\AdminMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UI\Admin\ClassForm\FormClassDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UI\Authentication\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UI\Authentication\RegisterForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\UserControls\ucClasses.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

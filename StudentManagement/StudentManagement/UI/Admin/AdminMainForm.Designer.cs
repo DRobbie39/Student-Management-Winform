@@ -120,6 +120,7 @@
             tsbClasses.Name = "tsbClasses";
             tsbClasses.Size = new Size(80, 28);
             tsbClasses.Text = "Classes";
+            tsbClasses.Click += tsbClasses_Click;
             // 
             // tsbSubjects
             // 
