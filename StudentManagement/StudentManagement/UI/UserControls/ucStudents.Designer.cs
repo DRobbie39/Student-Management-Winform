@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             dgvStudents = new DataGridView();
             colStudentID = new DataGridViewTextBoxColumn();
             colFullName = new DataGridViewTextBoxColumn();
@@ -52,17 +52,17 @@
             // 
             // dgvStudents
             // 
-            dataGridViewCellStyle11.BackColor = Color.FromArgb(238, 239, 249);
-            dgvStudents.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(238, 239, 249);
+            dgvStudents.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dgvStudents.BackgroundColor = Color.White;
-            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = SystemColors.Control;
-            dataGridViewCellStyle12.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle12.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.True;
-            dgvStudents.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dgvStudents.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dgvStudents.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvStudents.Columns.AddRange(new DataGridViewColumn[] { colStudentID, colFullName, colGender, colDOB, colAddress, colClassName });
             dgvStudents.EnableHeadersVisualStyles = false;
@@ -71,9 +71,11 @@
             dgvStudents.RowHeadersWidth = 51;
             dgvStudents.Size = new Size(1176, 577);
             dgvStudents.TabIndex = 6;
+            dgvStudents.CellFormatting += dgvStudents_CellFormatting;
             // 
             // colStudentID
             // 
+            colStudentID.DataPropertyName = "StudentId";
             colStudentID.HeaderText = "Student ID";
             colStudentID.MinimumWidth = 6;
             colStudentID.Name = "colStudentID";
@@ -81,6 +83,7 @@
             // 
             // colFullName
             // 
+            colFullName.DataPropertyName = "FullName";
             colFullName.HeaderText = "Full Name";
             colFullName.MinimumWidth = 6;
             colFullName.Name = "colFullName";
@@ -89,12 +92,14 @@
             // colGender
             // 
             colGender.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            colGender.DataPropertyName = "Gender";
             colGender.HeaderText = "Gender";
             colGender.MinimumWidth = 6;
             colGender.Name = "colGender";
             // 
             // colDOB
             // 
+            colDOB.DataPropertyName = "DateOfBirth";
             colDOB.HeaderText = "Date Of Birth";
             colDOB.MinimumWidth = 6;
             colDOB.Name = "colDOB";
@@ -102,6 +107,7 @@
             // 
             // colAddress
             // 
+            colAddress.DataPropertyName = "Address";
             colAddress.HeaderText = "Address";
             colAddress.MinimumWidth = 6;
             colAddress.Name = "colAddress";
@@ -133,6 +139,7 @@
             btnAdd.TabIndex = 0;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnEdit
             // 
@@ -143,6 +150,7 @@
             btnEdit.TabIndex = 1;
             btnEdit.Text = "Edit";
             btnEdit.UseVisualStyleBackColor = true;
+            btnEdit.Click += btnEdit_Click;
             // 
             // btnDelete
             // 
@@ -153,10 +161,11 @@
             btnDelete.TabIndex = 2;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // pbStudents
             // 
-            pbStudents.Image = Properties.Resources.class_icon;
+            pbStudents.Image = Properties.Resources.student_icon;
             pbStudents.Location = new Point(14, 40);
             pbStudents.Name = "pbStudents";
             pbStudents.Size = new Size(27, 23);
@@ -182,6 +191,7 @@
             btnSearchStudents.TabIndex = 9;
             btnSearchStudents.Text = "Search";
             btnSearchStudents.UseVisualStyleBackColor = true;
+            btnSearchStudents.Click += btnSearchStudents_Click;
             // 
             // txtSearchStudents
             // 
@@ -203,6 +213,7 @@
             Controls.Add(txtSearchStudents);
             Name = "ucStudents";
             Size = new Size(1182, 702);
+            Load += ucStudents_Load;
             ((System.ComponentModel.ISupportInitialize)dgvStudents).EndInit();
             flpButton.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pbStudents).EndInit();

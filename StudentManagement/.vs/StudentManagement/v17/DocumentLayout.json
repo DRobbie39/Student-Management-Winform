@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\admin\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\admin\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\usercontrols\\ucstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\usercontrols\\ucstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\admin\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\admin\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\admin\\studentform\\studentdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\admin\\studentform\\studentdetailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\admin\\classform\\formclassdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\admin\\classform\\formclassdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|d:\\study\\code_storage\\qlsinhvien_pv\\student-management-winform\\studentmanagement\\studentmanagement\\ui\\usercontrols\\ucstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DF52B21-C661-4056-A178-550E2CA058D2}|StudentManagement\\StudentManagement.csproj|solutionrelative:studentmanagement\\ui\\usercontrols\\ucstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,50 +67,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminMainForm.cs",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\AdminMainForm.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\UI\\Admin\\AdminMainForm.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\AdminMainForm.cs",
-              "RelativeToolTip": "StudentManagement\\UI\\Admin\\AdminMainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Title": "ucStudents.cs",
+              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "RelativeToolTip": "StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T16:29:12.979Z",
+              "WhenOpened": "2025-11-09T17:41:20.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdminMainForm.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\AdminMainForm.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\UI\\Admin\\AdminMainForm.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\AdminMainForm.cs [Design]",
-              "RelativeToolTip": "StudentManagement\\UI\\Admin\\AdminMainForm.cs [Design]",
+              "Title": "ucStudents.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "RelativeDocumentMoniker": "StudentManagement\\UI\\UserControls\\ucStudents.cs",
+              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\UserControls\\ucStudents.cs [Design]",
+              "RelativeToolTip": "StudentManagement\\UI\\UserControls\\ucStudents.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T16:29:08.547Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormClassDetail.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\ClassForm\\FormClassDetail.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\UI\\Admin\\ClassForm\\FormClassDetail.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\ClassForm\\FormClassDetail.cs [Design]",
-              "RelativeToolTip": "StudentManagement\\UI\\Admin\\ClassForm\\FormClassDetail.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T16:27:34.553Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentDetailForm.cs [Design]",
-              "DocumentMoniker": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\StudentForm\\StudentDetailForm.cs",
-              "RelativeDocumentMoniker": "StudentManagement\\UI\\Admin\\StudentForm\\StudentDetailForm.cs",
-              "ToolTip": "D:\\Study\\Code_storage\\QLSinhVien_PV\\Student-Management-Winform\\StudentManagement\\StudentManagement\\UI\\Admin\\StudentForm\\StudentDetailForm.cs [Design]",
-              "RelativeToolTip": "StudentManagement\\UI\\Admin\\StudentForm\\StudentDetailForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T16:24:05.461Z",
+              "WhenOpened": "2025-11-09T17:40:06.122Z",
               "EditorCaption": " [Design]"
             }
           ]
