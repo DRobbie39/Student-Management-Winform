@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             dgvClasses = new DataGridView();
             colClassID = new DataGridViewTextBoxColumn();
             colClassName = new DataGridViewTextBoxColumn();
@@ -41,25 +41,25 @@
             txtSearchClasses = new TextBox();
             btnSearchClasses = new Button();
             lblClasses = new Label();
-            pictureBox1 = new PictureBox();
+            pbClasses = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dgvClasses).BeginInit();
             flpButton.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbClasses).BeginInit();
             SuspendLayout();
             // 
             // dgvClasses
             // 
-            dataGridViewCellStyle11.BackColor = Color.FromArgb(238, 239, 249);
-            dgvClasses.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(238, 239, 249);
+            dgvClasses.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dgvClasses.BackgroundColor = Color.White;
-            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = SystemColors.Control;
-            dataGridViewCellStyle12.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle12.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.True;
-            dgvClasses.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dgvClasses.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dgvClasses.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvClasses.Columns.AddRange(new DataGridViewColumn[] { colClassID, colClassName, colDepartment });
             dgvClasses.EnableHeadersVisualStyles = false;
@@ -164,21 +164,21 @@
             lblClasses.TabIndex = 4;
             lblClasses.Text = "Classes Management";
             // 
-            // pictureBox1
+            // pbClasses
             // 
-            pictureBox1.Image = Properties.Resources.class_icon;
-            pictureBox1.Location = new Point(14, 40);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(27, 23);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 5;
-            pictureBox1.TabStop = false;
+            pbClasses.Image = Properties.Resources.class_icon;
+            pbClasses.Location = new Point(14, 40);
+            pbClasses.Name = "pbClasses";
+            pbClasses.Size = new Size(27, 23);
+            pbClasses.SizeMode = PictureBoxSizeMode.Zoom;
+            pbClasses.TabIndex = 5;
+            pbClasses.TabStop = false;
             // 
             // ucClasses
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(pictureBox1);
+            Controls.Add(pbClasses);
             Controls.Add(lblClasses);
             Controls.Add(btnSearchClasses);
             Controls.Add(txtSearchClasses);
@@ -189,7 +189,7 @@
             Load += ucClasses_Load;
             ((System.ComponentModel.ISupportInitialize)dgvClasses).EndInit();
             flpButton.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbClasses).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -207,6 +207,6 @@
         private DataGridViewTextBoxColumn colClassID;
         private DataGridViewTextBoxColumn colClassName;
         private DataGridViewTextBoxColumn colDepartment;
-        private PictureBox pictureBox1;
+        private PictureBox pbClasses;
     }
 }

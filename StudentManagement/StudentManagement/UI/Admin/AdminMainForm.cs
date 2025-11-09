@@ -50,14 +50,19 @@ namespace StudentManagement.UI.Admin
             pnlContent.Controls.Add(uc);
         }
 
-        private void tsbClasses_Click(object sender, EventArgs e)
-        {
-            ShowUserControl(new ucClasses());
-        }
-
         private void tsbHome_Click(object sender, EventArgs e)
         {
             ShowUserControl(new ucHome());
+        }
+
+        private void tsbStudent_Click(object sender, EventArgs e)
+        {
+            ShowUserControl(new ucStudents());
+        }
+
+        private void tsbClasses_Click(object sender, EventArgs e)
+        {
+            ShowUserControl(new ucClasses());
         }
     }
 }

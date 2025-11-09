@@ -112,6 +112,7 @@
             tsbStudent.Name = "tsbStudent";
             tsbStudent.Size = new Size(112, 32);
             tsbStudent.Text = "Students";
+            tsbStudent.Click += tsbStudent_Click;
             // 
             // tsbClasses
             // 
