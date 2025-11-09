@@ -1,4 +1,5 @@
 using StudentManagement.UI.Admin;
+using StudentManagement.UI.Authentication;
 
 namespace StudentManagement
 {
@@ -13,7 +14,7 @@ namespace StudentManagement
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmAdminMainForm());
+            Application.Run(new frmLoginForm());
         }
     }
 }

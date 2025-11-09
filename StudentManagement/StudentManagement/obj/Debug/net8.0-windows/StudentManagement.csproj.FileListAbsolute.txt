@@ -142,3 +142,5 @@ D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.genruntimeconfig.cache
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\ref\StudentManagement.dll
 D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.Properties.Resources.resources
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.Authentication.frmLoginForm.resources
+D:\Study\Code_storage\QLSinhVien_PV\Student-Management-Winform\StudentManagement\StudentManagement\obj\Debug\net8.0-windows\StudentManagement.UI.Authentication.frmRegisterForm.resources
