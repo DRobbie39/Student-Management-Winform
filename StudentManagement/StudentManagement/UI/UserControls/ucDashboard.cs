@@ -35,14 +35,14 @@ namespace StudentManagement.UI.UserControls
                 var students = _dashboardBLL.GetAllStudentsForStats();
                 var classes = _dashboardBLL.GetAllClassesWithStudents();
 
-                // 1. Cập nhật các thẻ thống kê
+                // Cập nhật các thẻ thống kê
                 lblTotalStudentsCount.Text = students.Count.ToString();
                 lblTotalClassesCount.Text = classes.Count.ToString();
 
-                // 2. Tải biểu đồ phân bố giới tính
+                // Tải biểu đồ phân bố giới tính
                 LoadGenderChart(students);
 
-                // 3. Tải biểu đồ sĩ số lớp học
+                // Tải biểu đồ sĩ số lớp học
                 LoadStudentsPerClassChart(classes);
             }
             catch (Exception ex)
@@ -78,13 +78,19 @@ namespace StudentManagement.UI.UserControls
 
             if (classes == null || !classes.Any()) return;
 
-            // Sắp xếp các lớp theo sĩ số giảm dần để biểu đồ đẹp hơn
-            var sortedClasses = classes.OrderByDescending(c => c.Students.Count).ToList();
+            // Tìm lớp có sĩ số cao nhất
+            var classWithMostStudents = classes
+                .OrderByDescending(c => c.Students.Count)
+                .FirstOrDefault();
 
-            // Thêm dữ liệu vào biểu đồ
-            foreach (var cls in sortedClasses)
+            // Nếu tìm thấy lớp (danh sách không rỗng)
+            if (classWithMostStudents != null)
             {
-                chartStudentsPerClass.Series["Students"].Points.AddXY(cls.ClassName, cls.Students.Count);
+                // Chỉ thêm duy nhất một điểm dữ liệu cho lớp đó vào biểu đồ
+                chartStudentsPerClass.Series["Students"].Points.AddXY(
+                    classWithMostStudents.ClassName,
+                    classWithMostStudents.Students.Count
+                );
             }
         }
     }

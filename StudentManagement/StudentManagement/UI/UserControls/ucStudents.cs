@@ -162,7 +162,7 @@ namespace StudentManagement.UI.UserControls
         {
             try
             {
-                // Lấy dữ liệu từ BLL của bạn
+                // Lấy dữ liệu từ BLL
                 var studentBLL = new StudentBLL();
 
                 var students = studentBLL.GetAllStudents();

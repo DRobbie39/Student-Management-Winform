@@ -49,7 +49,7 @@
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(177, 63);
             btnLogout.TabIndex = 1;
-            btnLogout.Text = "😉 Logout";
+            btnLogout.Text = "Logout";
             btnLogout.TextImageRelation = TextImageRelation.ImageAboveText;
             btnLogout.UseVisualStyleBackColor = true;
             btnLogout.Click += btnLogout_Click;
