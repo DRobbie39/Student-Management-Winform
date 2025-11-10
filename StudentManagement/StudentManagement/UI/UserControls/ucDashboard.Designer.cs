@@ -156,7 +156,7 @@
             chartStudentsPerClass.Text = "chart2";
             title2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             title2.Name = "Title1";
-            title2.Text = "Students per Class";
+            title2.Text = "Class with the Most Students";
             chartStudentsPerClass.Titles.Add(title2);
             // 
             // lblDashboardTitle
